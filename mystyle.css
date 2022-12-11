@@ -1,0 +1,112 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+    background-image: url("../IMAGES/background.jpeg");
+    background-size: cover;
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0;
+    }
+
+
+
+a {
+    text-decoration: none;
+    color: black
+}
+
+h1, h2, h3 {
+    margin: 0;
+    padding:2px;
+}
+
+#container {
+    background-color: white;
+    opacity: 0.7;
+    width: 900px;
+    height: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    color: green;
+    text-align: center;
+}
+
+.content {
+    padding: 0px;
+}
+.topnav {
+    overflow: hidden;
+    background-color: transparent;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+}
+
+.topnav li {
+    list-style: none;
+}
+
+.topnav ul {
+    float: left;
+}
+
+#nav ul li a{
+    display: block;
+    font-family: cursive;
+    color: blue;
+    font-size: 14px;
+    padding: 24px 14px;
+    text-decoration: none;
+}
+
+.topnav ul li {
+    float: left;
+    list-style: none;
+    position: relative;
+}
+
+.topnav ul li ul {
+    display: none;
+    position: absolute;
+    background-color: burlywood;
+    padding: 10px;
+    border-radius: 0px 0px 4px 4px;
+}
+
+.slider_image {
+    flex: 50%;
+    flex-wrap: wrap;
+    display: flex;
+    background-color: saddlebrown;
+    padding: 25px;
+    justify-content: left;
+}
+
+.flex-container2 {
+    display: flex;
+    background-color: saddlebrown;
+    justify-content: center;
+    clear: both;
+}
+
+.flex-container1 > div {
+    background-color: saddlebrown;
+    color: wheat;
+    width: 100%;
+    margin: 10 px;
+    text-align: center;
+    line-height: 10px;
+    font-size: 20px;
+    align-content: center
+}
+.footer {
+    text-align: center;
+}
